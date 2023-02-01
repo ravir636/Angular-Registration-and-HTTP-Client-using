@@ -1,0 +1,36 @@
+<div class="container">  
+  
+  <div class="form-group mb-4">
+    <input class="form-control" type="text" [(ngModel)]="searchText" placeholder="Search">
+  </div>
+  
+    <h1> User Landing Page </h1>  
+      
+    <table class="table table-striped">  
+      <thead>  
+          <tr> 
+            <th>S.NO</th>
+            <th>First Name</th>  
+            <th>Last Name</th>  
+            <th>Email</th>  
+            <th>Gender</th>  
+            <th>DOB</th>  
+            <th>Phone</th>  
+            <th>Password</th>  
+          </tr>  
+      </thead>  
+      <tbody>  
+        <tr *ngFor="let user of data | filter: searchText; let i = index">  
+          <td>{{i+1}}</td>
+          <td>{{ user.name }}</td>  
+          <td>{{ user.lastName }}</td>  
+          <td>{{ user.email }}</td>  
+          <td>{{ user.gender }}</td>  
+          <td>{{ user.dob }}</td>  
+          <td>{{ user.phone }}</td>  
+          <td>{{ user.password }}</td>  
+        </tr>  
+      </tbody>  
+    </table>  
+  </div>  
+  

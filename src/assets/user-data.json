@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Jack",
+		"lastName": "sdf",
+		"email": "jack@gmail.com",
+		"gender": "male",
+		"phone": "654465545",
+		"password": "23424"
+	},
+	{
+		"name": "Peter",
+		"lastName": "sdf",
+		"email": "peter@gmail.com",
+		"gender": "male",
+		"phone": "654465545",
+		"password": "23424"
+	},
+	{
+		"name": "Mary",
+		"lastName": "dsf",
+		"email": "mary@gmail.com",
+		"gender": "female",
+		"phone": "654465545",
+		"password": "23424"
+	},
+	{
+		"name": "Smith",
+		"lastName": "",
+		"email": "smith@gmail.com",
+		"gender": "male",
+		"phone": "654465545",
+		"password": "23424"
+	},
+	{
+		"name": "John",
+		"lastName": "",
+		"email": "john@gmail.com",
+		"gender": "male",
+		"phone": "654465545",
+		"password": "23424"
+	}
+]
